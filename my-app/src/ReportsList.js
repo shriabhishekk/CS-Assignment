@@ -4,7 +4,7 @@ const ReportsList = () => {
   const [reports, setReports] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5001/api/reports')
+    fetch('https://cs-assignment.onrender.com/api/reports')
       .then((response) => response.json())
       .then((data) => setReports(data))
       .catch((error) => console.error('Error fetching reports:', error));
