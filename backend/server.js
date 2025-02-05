@@ -10,8 +10,7 @@ const CreditReport = require('./models/creditReportModel');
 const app = express();
 app.use(cors());
 
-mongoose.connect('mongodb+srv://admin:admin@clusterr.peywk.mongodb.net/creditReports?retryWrites=true&w=majority&appName=Clusterr
-', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://admin:admin@clusterr.peywk.mongodb.net/creditReports?retryWrites=true&w=majority&appName=Clusterr', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('Error connecting to MongoDB:', err));
 
