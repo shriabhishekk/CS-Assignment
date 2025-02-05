@@ -12,7 +12,7 @@ function Upload() {
         const formData = new FormData();
         formData.append('xmlFile', file);
 
-        axios.post('http://localhost:5001/api/upload', formData)
+        axios.post('https://cs-assignment.onrender.com/api/upload', formData)
             .then(response => {
                 alert('File uploaded successfully');
             })
