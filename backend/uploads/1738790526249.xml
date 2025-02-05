@@ -1,0 +1,36 @@
+<creditReport>
+    <basicDetails>
+        <name>John Doe</name>
+        <mobilePhone>1234567890</mobilePhone>
+        <pan>ABCDE1234F</pan>
+        <creditScore>750</creditScore>
+    </basicDetails>
+    <reportSummary>
+        <totalAccounts>10</totalAccounts>
+        <activeAccounts>7</activeAccounts>
+        <closedAccounts>3</closedAccounts>
+        <currentBalance>5000</currentBalance>
+        <securedAccounts>2000</securedAccounts>
+        <unsecuredAccounts>3000</unsecuredAccounts>
+        <last7DaysEnquiries>2</last7DaysEnquiries>
+    </reportSummary>
+    <creditAccounts>
+        <creditCard>
+            <accountNumber>1234567890123456</accountNumber>
+            <bank>Bank of ABC</bank>
+            <amountOverdue>500</amountOverdue>
+            <currentBalance>1000</currentBalance>
+        </creditCard>
+        <creditCard>
+            <accountNumber>6543210987654321</accountNumber>
+            <bank>XYZ Bank</bank>
+            <amountOverdue>0</amountOverdue>
+            <currentBalance>2000</currentBalance>
+        </creditCard>
+        <!-- Add more credit accounts if needed -->
+    </creditAccounts>
+    <addresses>
+        <address>123 Main St, City, Country</address>
+        <address>456 Elm St, City, Country</address>
+    </addresses>
+</creditReport>
