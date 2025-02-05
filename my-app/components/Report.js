@@ -5,7 +5,7 @@ function Report() {
     const [report, setReport] = useState(null);
 
     useEffect(() => {
-        axios.get('http://localhost:5001/api/report')
+        axios.get('https://cs-assignment.onrender.com/api/report')
             .then(response => {
                 setReport(response.data);
             })
