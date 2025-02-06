@@ -84,7 +84,7 @@ The frontend should now be running at `http://localhost:3000`.
 
 ## Viewing Data in MongoDB Compass
 1. Open **MongoDB Compass**.
-2. Connect to `mongodb://localhost:27017/your_database_name`.
+2. Connect to `mongodb://localhost:27017/creditReports`.
 3. Find the **collection** where the XML data is stored.
 4. You should see the parsed data stored as documents.
 
@@ -100,7 +100,7 @@ The frontend should now be running at `http://localhost:3000`.
 ## Running Both Frontend & Backend Simultaneously
 Use the following command in the project root directory:
 ```bash
-concurrently "cd backend && npm start" "cd frontend && npm start"
+concurrently "cd backend && node server.js" "cd frontend && npm start"
 ```
 This will run both servers at the same time.
 
