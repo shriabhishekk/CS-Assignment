@@ -68,6 +68,8 @@ The frontend should now be running at `http://localhost:3000`.
    - Open Postman.
    - Set method to **POST**.
    - Enter URL: `http://localhost:5000/upload`
+   - or `https://cs-assignment.onrender.com/upload`  **If you want to test it live on the deployed wesite**
+     
    - Go to the **Body** section → Select **form-data**.
    - Add a key **file** (type: **File**), and upload an XML file.
    - Click **Send**.
@@ -75,6 +77,7 @@ The frontend should now be running at `http://localhost:3000`.
 
 2. **View Stored Data**:
    - Use **GET** request to `http://localhost:5000/api/reports` to retrieve stored data.
+   - or ``https://cs-assignment.onrender.com/api/reports`   **If you want to test it live on the deployed wesite**
    - The response should contain parsed XML data from MongoDB.
 
 ---
